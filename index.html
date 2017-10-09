@@ -11,30 +11,37 @@
 
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <div class="content-wrap">
             <img class="profile-img col-narrow" src="https://unsplash.it/300/300" alt="Mike Phelps">
             <div class="col-wide">
                 <h1>Mike Phelps</h1>
-                <h2>Job title or tagline</h2>
+                <h2>Web Developer</h2>
                 <p>Add your profile summary here. You can have several paragraphs or add links.</p>
             </div>
         </div>
+        <a href="resume.pdf" class="btn download" download>Download PDF</a>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
                 <div class="col-narrow">
                     <!-- Job Details: copy this whole block to add more jobs -->
                     <h3>Job title</h3>
-                    <p>Company Name</p>
+                    <p class="uppercase">Company Name</p>
                     <p>Date at job</p>
                 </div>
-                <div class="col-wide">
+                <div class="col-wide job-description">
                     <!-- Add as many paragraphs as you need. -->
                     <p>Job summary.</p>
 
@@ -52,15 +59,17 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
             <div class="content-wrap">
                 <h2>Education</h2>
-
-                <!-- School details: copy this whole block to add more schools. -->
-                <h3>School name, year you attended</h3>
-                <p>Designation received</p>
-
-                <!-- Add as many paragraphs as you need. -->
+                <!-- School 1 -->
+                <h3>Udacity - Online</h3>
+                <p>Front-End Nanodegree, 2017</p>
+                <p>Summary.</p>
+                <!-- End of school details. -->
+                <!-- School 2 -->
+                <h3>Wake Tech Community College - Raleigh, NC</h3>
+                <p>A.A.S Web Development, 2013-2015</p>
                 <p>Summary.</p>
                 <!-- End of school details. -->
             </div>
@@ -68,7 +77,7 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
 
